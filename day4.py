@@ -1,0 +1,57 @@
+print('Thirty' + ' ' + 'Days' + ' ' + 'Of' + ' ' + 'Python')
+print('Coding' + ' ' + 'For' + ' ' + 'All' )
+Company='Coding For All'
+print(Company)
+print(len(Company))
+print(Company.upper())
+print(Company.lower())
+print(Company.capitalize())
+print(Company.title())
+print(Company.swapcase())
+print(Company[7])
+print("Coding" in Company)
+print(Company.find('Coding'))
+print(Company.replace('Coding', 'Python'))
+senntence = 'Python for Everyone'
+print(senntence.replace('Everyone', 'All'))
+print(Company.split())
+tech = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+print(tech.split(','))
+print(Company[0])
+print(len(Company)-1)
+print(Company[10])
+pfe = 'Python For Everyone'
+print("".join([word[0] for word in pfe.split()]))
+print("".join([word[0] for word  in Company.split()]))
+print(Company.index('C'))
+print(Company.index('F'))
+print("Coding For All People".rfind("l")) 
+b= "You cannot end a sentence with because because because is a conjunction"
+print(b.find("because"))
+print(b.rindex("because"))
+start = b.find("because")
+end = start + len("because because because")
+print(b[:start] + b[end + 1 :]) 
+print(b.index("because")) 
+print(Company.startswith("Coding")) 
+print(Company.endswith("Coding")) 
+spaced_str = "   Coding For All      "
+print(spaced_str.strip()) 
+print("30DaysOfPython".isidentifier()) 
+print("thirty_days_of_python".isidentifier())
+libs = ["Django", "Flask", "Bottle", "Pyramid", "Falcon"]
+print("# ".join(libs))
+print("I am enjoying this challenge.\nI just wonder what is next.")
+print("Name\tAge\tCountry\tCity")
+print("Asabeneh\t250\tFinland\tHelsinki")
+radius = 10
+area = 3.14 * radius**2
+print(f"The area of a circle with radius {radius} is {int(area)} meters square.")
+A, B = 8, 6
+print(f"{A} + {B} = {A + B}")
+print(f"{A} - {B} = {A - B}")
+print(f"{A} * {B} = {A * B}")
+print(f"{A} / {B} = {A / B:.2f}")
+print(f"{A} % {B} = {A % B}")
+print(f"{A} // {B} = {A // B}")
+print(f"{A} ** {B} = {A ** B}")
