@@ -75,4 +75,3 @@ print(f"Second Half: {second_half}")
 c1, c2, c3, *scandic = countries
 print(c1, c2, c3)
 print(scandic)
-1
