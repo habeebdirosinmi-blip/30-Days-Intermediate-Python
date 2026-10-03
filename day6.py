@@ -32,4 +32,4 @@ del food_stuff_tp
 nordic_countries = ("Denmark", "Finland", "Iceland", "Norway", "Sweden")
 print("Is Estonia a nordic country?", "Estonia" in nordic_countries)
 print("Is Iceland a nordic country?", "Iceland" in nordic_countries)
-6
+7
