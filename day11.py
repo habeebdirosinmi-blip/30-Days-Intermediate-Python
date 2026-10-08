@@ -3,8 +3,6 @@ import keyword
 from collections import Counter
 def add_two_numbers(a, b):
     return a + b
-
-
 def area_of_circle(r):
     return math.pi * r * r
 def add_all_nums(*args):
@@ -14,8 +12,10 @@ def add_all_nums(*args):
             return f"Error: All inputs must be numeric. Found invalid item: {item} ({type(item).__name__})"
         total += item
     return total
+
 def convert_celsius_to_fahrenheit(celsius):
     return (celsius * 9 / 5) + 32
+
 def check_season(month):
     month = str(month).strip().capitalize()
     if month in ['September', 'October', 'November']:
