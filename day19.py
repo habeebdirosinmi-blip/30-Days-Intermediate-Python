@@ -113,10 +113,10 @@ if os.path.exists(romeo_file):
     top_words = find_most_common_words(romeo_file, 10)
     print(top_words)
 else:
-    print(f"❌ Missing file: {romeo_file}. Make sure 'romeo_and_juliet.txt' is placed inside your local 'data' folder.")
+    print(f" Missing file: {romeo_file}. Make sure 'romeo_and_juliet.txt' is placed inside your local 'data' folder.")
 def analyze_hacker_news(filename):
     if not os.path.exists(filename):
-        print(f"❌ Missing file: {filename}")
+        print(f"Missing file: {filename}")
         return
         
     python_count = 0
